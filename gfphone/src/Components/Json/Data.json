@@ -1,0 +1,98 @@
+[
+    {
+    "id":1,
+    "nombre": "iPhone 13",
+    "descripcion":"Iphone 13 128 GB",
+    "imagen": "../productosimg/13.jpg",
+    "precio": 1200,
+    "stock": 5,
+    "marca":"iPhone"
+    },
+    {
+    "id":2,
+    "nombre": "iPhone 13 pro",
+    "descripcion":"Iphone 13 pro 256 GB",
+    "imagen": "../productosimg/13pro.jpg",
+    "precio": 1300,
+    "stock": 2,
+    "marca":"iPhone"
+    },
+    
+    {
+    "id":3,
+    "nombre": "iPhone 15 pro",
+    "descripcion":"Iphone 15 pro 512 GB",
+    "imagen": "../productosimg/15pro.jpg",
+    "precio": 1400,
+    "stock": 10,
+    "marca":"iPhone"
+    },
+                
+    {
+    "id":4,
+    "nombre": "iPhone 14 pro max",
+    "descripcion":"Iphone 14 pro max 512 GB",
+    "imagen": "../productosimg/14promax.jpg",
+    "precio": 1500,
+    "stock": 7,
+    "marca":"iPhone"
+    },
+                
+    {
+    "id":5,
+    "nombre": "Samsung s22",
+    "descripcion":"Samsung s22 128 GB",
+    "imagen": "../productosimg/samsungs22.jpg",
+    "precio": 800,
+    "stock": 3,
+    "marca":"Samsung"
+    },
+    
+    {
+    "id":6,
+    "nombre": "Samsung S23",
+    "descripcion":"Samsung s23 128 GB",
+    "imagen": "../productosimg/samsungs23.jpg",
+    "precio": 900,
+    "stock": 10,
+    "marca":"Samsung"
+    },
+    
+    {
+    "id":7,
+    "nombre": "Samsung s23 ultra",
+    "descripcion":"Samsung s23 ultra 512 GB",
+    "imagen": "../productosimg/samsungs23ultra.jpg",
+    "precio": 1200,
+    "stock": 8,
+    "marca":"Samsung"
+    },
+    {
+    "id":8,
+    "nombre": "Motorola Moto E13",
+    "descripcion":"Motorola Moto E13 64 GB",
+    "imagen": "../productosimg/e13.jpg",
+    "precio": 500,
+    "stock": 7,
+    "marca":"Motorola"
+    },
+    
+    {
+    "id":9,
+    "nombre": "Motorola Moto G14",
+    "descripcion":"Motorola Moto G14 128 GB",
+    "imagen": "../productosimg/g14.jpg",
+    "precio": 900,
+    "stock": 5,
+    "marca":"Motorola"
+    },
+    {
+    "id":10,
+    "nombre": "Motorola Moto G23",
+    "descripcion":"Motorola Moto G23 128 GB",
+    "imagen": "../productosimg/g23.jpg",
+    "precio": 1100,
+    "stock": 5,
+    "marca":"Motorola"
+    }                                    
+    ]
