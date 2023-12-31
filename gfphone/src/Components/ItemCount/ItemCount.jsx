@@ -5,12 +5,13 @@ const ItemCount = ({cantidad, handleRestar, handleSumar, handleAgregar}) => {
 
     
 
-    return (<div>
+    return (
+    <div className="itemProducto">
 
-        <button onClick={handleRestar}>-</button>
-        <h4>{cantidad}</h4>
-        <button onClick={handleSumar}>+</button>
-        <button onClick={handleAgregar}>Agregar</button>
+        <h4>Cantidad Seleccionada: {cantidad}</h4>
+        <button className="botonItem" onClick={handleRestar}>-</button>
+        <button className="botonItem" onClick={handleSumar}>+</button>
+        <button className="botonAgregar" onClick={handleAgregar}>Agregar</button>
     </div>
    
     )

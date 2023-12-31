@@ -11,15 +11,16 @@ const Contacto = () => {
     return(
 
         <div>
-            <h2>Contacto</h2>
-            <form onSubmit={handleSubmit(enviar)}>
+            <h2 className="contactoForm">Contacto</h2>
 
-                <input type="text" placeholder="Ingresá tu nombre" {...register("nombre")}/>
-                <input type="email"  placeholder="Ingresa tu email"{...register("email")}/>
-                <input type="phone"  placeholder="Ingresa tu telefono"{...register("telefono")}/>
+            <form className="datosFormulario" onSubmit={handleSubmit(enviar)}>
+
+                <input className="datos" type="text" placeholder="Ingresá tu nombre" {...register("nombre")}/>
+                <input className="datos" type="email"  placeholder="Ingresa tu email"{...register("email")}/>
+                <input className="datos" type="phone"  placeholder="Ingresa tu telefono"{...register("telefono")}/>
                 
 
-                <button type="submit">Enviar</button>
+                <button className="buttonFormulario" type="submit">Enviar</button>
             </form>
 
         </div>

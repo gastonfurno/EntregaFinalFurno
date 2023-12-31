@@ -7,7 +7,7 @@ import {db} from "../Firebase/config";
 const ItemListContainer = () => {
 
     const [productos, setProductos] = useState ([]);
-    const [titulo, setTitulo] = useState ("SmartPhones");
+    
     const marca = useParams().marca;
 
     useEffect(() => {
@@ -29,7 +29,7 @@ const ItemListContainer = () => {
     
     return (
         
-        <ItemList productos={productos} titulo={titulo}/>
+        <ItemList productos={productos}/>
     
     )
 }

@@ -5,9 +5,9 @@ import CartWidget from "../CartWidget/CartWidget";
 const NavBar = () => {
     return(
         <nav className="navbar">
-            <Link  to= "/" className="logo"><h1>GfPhone</h1></Link >
+            <Link  to= "/" className="logo"><img src="../../public/logo.png"></img></Link >
             <ul className="menu">
-                <li><Link className="menu-link" to="/" >SMARTPHONES </Link ></li>
+                <li><Link className="menu-link" to="/" >PRODUCTOS </Link ></li>
                 <li><Link className="menu-link" to="/celulares/iPhone" >IPHONE</Link ></li>
                 <li><Link className="menu-link" to="/celulares/Samsung" >SAMSUNG</Link ></li>
                 <li><Link className="menu-link" to="/celulares/Motorola" >MOTOROLA</Link ></li>

@@ -5,44 +5,46 @@
   width: 100%;
   }
 
-li{
-  list-style-type: none;
-
-}
+  li{
+    list-style-type: none;
+  }
 .navbar{
   display: flex;
   justify-content: space-between;
-   padding: 1.5rem;
-   background-color:cadetblue ;
+  padding: 1.5rem;
+  background-color:#A23E48 ;
 }
+
 .menu{
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
+  width: 50%;
+  align-items: center;
 }
 
 .menu-link{
-  padding-left: 1rem;
   cursor: pointer;
   text-decoration: none;
-  color: #FFFFFC;
-  cursor: pointer;
+  color: #000000;
   font-weight: 600;
   font-family: 'Kalam', cursive;
   font-size: 20px;
 }
 
+.menu-link:hover{
+  color: aliceblue;
+
+}
+
 .logo{
-  color: #FFFFFC;
-   font-weight: 600;
-  font-family: 'Kalam', cursive;
-  font-size: 20px;
-  text-decoration: none;
+ width: 3%;
 }
 
 .conteiner{
   display: grid;
   text-align: center;
   grid-template-columns: repeat(3, 3fr);
+  padding-bottom: 10rem;
 }
 
 .conteiner img{
@@ -60,6 +62,7 @@ li{
   padding-bottom: 5px;
 }
 
+
 .detailProducto{
   padding: 10px;
   display:inline-flex;
@@ -73,3 +76,174 @@ li{
   font-size: 20px;
   padding: 10px;
 }
+
+.contProductos{
+padding-top: 3rem;
+}
+
+.contProductos h3{
+  padding-bottom:0.5rem;
+  font-size: 20px;
+  font-family: 'Kalam', cursive;
+}
+
+.contProductos p{
+  padding: 0.5rem;
+  font-size: 18px;
+}
+
+.contactoForm{
+  font-family: 'Kalam', cursive;
+  color:#A23E48;
+  padding-top: 2rem;
+  font-size: 40px;
+  font-weight:600px ;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.datosFormulario{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.datos{
+  width: 20%;
+  margin-bottom: 15px;
+  padding:12px 20px ;
+  border: 1px solid #292727;
+  color:#999;
+  font-weight: 400;
+  outline: 0;
+  border-radius: 0.3rem;
+}
+
+
+.buttonFormulario{
+  width: 10%;
+  padding: 12px 30px;
+  border: transparent;
+  border-radius: 10px;
+  background-color: #8B8982;
+  color:azure;
+  float: right ;
+  cursor: pointer;
+}
+.buttonFormulario:hover{
+      background-color:cadetblue;
+  }
+
+.finalCompra{
+  font-family: 'Kalam', cursive;
+  color:cadetblue;
+  padding: 1rem;
+  font-size: 40px;
+  font-weight:600px ;
+}
+
+.ordenCompra{
+  font-family: 'Kalam', cursive;
+  color:cadetblue;
+  padding: 1rem;
+  font-size: 20px;
+  font-weight:600px ;
+}
+
+.imgCarrito{
+  width: 35px;
+  
+}
+
+.detalle {
+  text-decoration: none;
+  font-family: 'Kalam', cursive;
+  font-size: 20px;
+  font-weight: 300px;
+  color:#A23E48;
+}
+
+.itemProducto{
+  padding-top: 1rem;
+  width: 30%;
+}
+
+.botonItem{
+  margin: 0.2rem;
+  padding:10px;
+  width: 40px;
+  background-color: #A23E48;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 300;
+  font-size: 18px;
+  
+}
+
+.botonAgregar{
+  padding: 10px;
+  width: 40%;
+  background-color: cadetblue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.contenedorCarrito{
+display: inline-block;
+padding: 0.5rem;
+text-align: center;
+}
+
+.contenedorCarrito h1{
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Kalam', cursive;
+}
+
+.totalPagar{
+  color: #A23E48;
+  font-size: 30px;
+  font-family: 'Kalam', cursive;
+}
+
+.productoEnCarrito{
+  margin: 0.5rem;
+  font-size: 20px;
+} 
+
+.productoEnCarrito h2{
+  font-family: 'Kalam', cursive;
+  margin-top: 0.2rem;
+}
+
+.finalizarCompra{
+  color: aliceblue;
+  padding: 10px;
+  width: 9%;
+  background-color: cadetblue;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.limpiarCarrito{
+  margin: 1rem;
+  padding: 10px;
+  width: 9%;
+  background-color:#A23E48;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+}
+
